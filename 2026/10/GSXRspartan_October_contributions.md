@@ -15,3 +15,9 @@ A summary of security contributions by GSXRspartan in October 2026:
 
 * All vulnerabilities were responsibly disclosed through GitHub Security Advisories, with reproduction evidence and technical analysis provided to the Tari team.
 * These contributions are tracked by `tari-project/special_contributions#40`, `tari-project/special_contributions#51`, and `tari-project/special_contributions#61`.
+
+* Reported a Tari Ootle malicious-indexer burn-claim vulnerability through GitHub Security Advisories (`GHSA-vv8c-c3cc-cwm8`).
+* The report demonstrated that a malicious configured indexer could control the non-refundable fee used by automatic L1 burn claiming and irreversibly consume nearly the entire burn claim.
+* Provided executable evidence covering the wallet/indexer trust boundary and non-refundable fee path.
+* The vulnerability was responsibly disclosed and subsequently fixed separately by the Tari team in `tari-project/tari-ootle#2803`.
+* This contribution is tracked by `tari-project/special_contributions#96`.
